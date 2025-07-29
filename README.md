@@ -36,3 +36,11 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Husky
+
+[Setup](https://typicode.github.io/husky/)
+
+## Conventional Commit
+
+[Documentation](https://www.conventionalcommits.org/en/v1.0.0/#specification)
