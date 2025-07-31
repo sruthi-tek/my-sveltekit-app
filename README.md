@@ -14,6 +14,8 @@ npx sv create
 npx sv create my-app
 ```
 
+## Install other external libraries
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
@@ -53,11 +55,20 @@ Add `.husky/commit-msg` and `git add commitlint.config.cjs`
 
 Change permissions `chmod +x .husky/commit-msg`
 
+Use `install.mjs` to skip husky on CI
+
 ## github Actions
 
 Add workflows
 
 .github/workflows
 
-- commitlint.yml
-- Lint, test, build
+TODO: Semantic release setup
+TODO: Deploy step - changes per site
+
+## Create a template repository
+
+https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository
+https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+
+## TODO: Repository restrictions for merges
