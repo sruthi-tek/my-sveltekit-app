@@ -44,3 +44,15 @@ You can preview the production build with `npm run preview`.
 ## Conventional Commit
 
 [Documentation](https://www.conventionalcommits.org/en/v1.0.0/#specification)
+
+```
+ npm install -D @commitlint/{config-conventional,cli}
+```
+
+Add `.husky/commit-msg` and `git add commitlint.config.cjs`
+
+Change permissions `chmod +x .husky/commit-msg`
+
+## github Actions
+
+Add workflow to
