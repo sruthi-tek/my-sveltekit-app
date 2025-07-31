@@ -55,4 +55,9 @@ Change permissions `chmod +x .husky/commit-msg`
 
 ## github Actions
 
-Add workflow to
+Add workflows
+
+.github/workflows
+
+- commitlint.yml
+- Lint, test, build
