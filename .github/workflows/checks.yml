@@ -27,7 +27,7 @@ jobs:
           restore-keys: npm-${{ runner.os }}-
 
       - run: npm ci
-      - run: npm run format:check
+      - run: npx prettier --check .
 
   eslint:
     name: 🧼 ESLint Check
