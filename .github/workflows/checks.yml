@@ -8,7 +8,7 @@ on:
 
 jobs:
   prettier:
-    name: 🎨 Prettier Format Check
+    name: Prettier Format Check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,7 +30,7 @@ jobs:
       - run: npx prettier --check .
 
   eslint:
-    name: 🧼 ESLint Check
+    name: ESLint Check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -52,7 +52,7 @@ jobs:
       - run: npm run lint
 
   commitlint:
-    name: 🔍 Commit Message Check
+    name: Commit Message Check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
