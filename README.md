@@ -1,4 +1,4 @@
-# CPAL Project template setup
+# Project template setup
 
 It includes common tooling, configurations, and automation needed to maintain consistency, code quality, and scalability across projects.
 
